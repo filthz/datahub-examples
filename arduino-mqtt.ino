@@ -4,17 +4,17 @@
 #include "DHT.h"
 
 const char* mqtt_server = "datahub.010102.de";
-const char* mqttUser = "#####";        // put your datahub username here
+const char* mqttUser =     "#####";        // put your datahub username here
 const char* mqttPassword = "#####";    // put your datahub password here
 const char* clientId =     "#####";    // enter the device id here
 const char* sensorId =     "#####";    // enter the sensor id here
 
+/*Put your SSID & Password*/
+const char* ssid =     "#####";     // Enter your SSID here
+const char* password = "####";  // Enter your wifi password here
+
 // Uncomment one of the lines below for whatever DHT sensor type you're using!
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
-
-/*Put your SSID & Password*/
-const char* ssid = "#####";     // Enter your SSID here
-const char* password = "####";  // Enter your wifi password here
 
 // DHT Sensor
 uint8_t DHTPin = 4;
