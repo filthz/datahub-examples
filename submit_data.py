@@ -11,5 +11,5 @@ data = {
 data = json.dumps(data)
 
 url = 'https://datahub.010102.de/uv1/api/sensor/' + sensor_id + '/measurement'
-response = requests.post(url, json=data, headers=header)
+response = requests.post(url, data, headers=header)
 print(response)
