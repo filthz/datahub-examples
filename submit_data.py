@@ -1,7 +1,8 @@
 import requests
+import json
 
 auth_token="<auth token>"
-sensor_id="<sensor_id>
+sensor_id="<sensor_id>"
 
 header = {"X-AUTH-TOKEN": auth_token, "Content-Type": "application/json"}
 
